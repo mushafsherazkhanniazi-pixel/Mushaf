@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="LuxeStore premium product collection."
+    >
+
+    <title>Shop | LuxeStore</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        Free shipping on orders over $500
+        <span>•</span>
+        Premium Collection
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="container nav-wrap">
+
+            <a href="index.html" class="logo">
+                <img
+                    src="logo.png"
+                    alt="LuxeStore"
+                >
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open Menu"
+            >
+                ☰
+            </button>
+
+
+            <nav
+                class="nav-links"
+                id="navLinks"
+            >
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a
+                    href="shop.html"
+                    class="active"
+                >
+                    Shop
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button
+                    class="icon-btn"
+                    id="searchToggle"
+                    type="button"
+                    aria-label="Search"
+                >
+                    ⌕
+                </button>
+
+                <a
+                    href="cart.html"
+                    class="cart-link"
+                >
+                    Cart
+
+                    <span id="cartCount">
+                        0
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- SEARCH -->
+        <div
+            class="search-panel"
+            id="searchPanel"
+        >
+
+            <div class="container search-inner">
+
+                <input
+                    type="search"
+                    id="homeSearch"
+                    placeholder="Search products..."
+                >
+
+                <button
+                    class="btn btn-gold"
+                    id="homeSearchBtn"
+                    type="button"
+                >
+                    Search
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                LUXESTORE COLLECTION
+            </p>
+
+            <h1>
+                Shop Premium Products
+            </h1>
+
+            <p>
+                Explore technology, audio,
+                lifestyle and entertainment
+                products selected for modern living.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SHOP -->
+    <main class="section">
+
+        <div class="container">
+
+
+            <!-- SEARCH + FILTERS -->
+            <div class="shop-controls">
+
+
+                <input
+                    type="search"
+                    id="shopSearch"
+                    class="shop-search"
+                    placeholder="Search products..."
+                    aria-label="Search products"
+                >
+
+
+                <div
+                    class="category-filters"
+                    id="categoryFilters"
+                >
+
+                    <button
+                        type="button"
+                        class="category-filter active"
+                        data-category="All"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Smart Tech"
+                    >
+                        Smart Tech
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Laptops"
+                    >
+                        Laptops
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Audio"
+                    >
+                        Audio
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Watches"
+                    >
+                        Watches
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Gaming"
+                    >
+                        Gaming
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Lifestyle"
+                    >
+                        Lifestyle
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-filter"
+                        data-category="Entertainment"
+                    >
+                        Entertainment
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- RESULTS -->
+            <div
+                class="results-count"
+                id="resultsCount"
+            >
+                Products
+            </div>
+
+
+            <!-- PRODUCTS -->
+            <div
+                id="shopProducts"
+                class="product-grid"
+            >
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <div>
+
+                <h3>
+                    LUXESTORE
+                </h3>
+
+                <p>
+                    Premium technology and
+                    lifestyle products for
+                    modern living.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="shop.html">
+                    Shop
+                </a>
+
+                <a href="cart.html">
+                    Cart
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Support
+                </h4>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+                <p>
+                    Secure shopping
+                </p>
+
+                <p>
+                    Premium products
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 LuxeStore.
+            All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
